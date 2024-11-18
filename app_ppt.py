@@ -13,7 +13,7 @@ def search_images(query):
     """Search for relevant images using Serper API"""
     url = "https://google.serper.dev/images"
     headers = {
-        'X-API-KEY': "b98caae0101de8f452644e3e570112ddf7039737",
+        'X-API-KEY': "",
         'Content-Type': 'application/json'
     }
     payload = {
